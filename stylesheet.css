@@ -1,0 +1,127 @@
+@media(min-width: 855px) {
+    header {
+        width: 100%;
+        padding: 1rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    main {
+        width: 100%;
+        padding: 1rem;
+        border: 1px double black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .choices {
+        width: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-basis: fit-content;
+    }
+    .bttn {
+        width: 10rem;
+        height: 2.5rem;
+        max-height: 5rem;
+        margin: 1rem;
+        border-radius: 1rem;
+        border: 3px solid #000;
+        background-color: #bfbfbf;
+        font-size: 25px;
+        color: #000;
+    }
+    .bttn:hover {
+        cursor: pointer;
+        background-color: #ccc;
+        box-shadow: 2px 2px #262626;
+    }
+    .bttn:active {
+        background-color: #fff;
+    }
+    .computer-user-choice {
+        width: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #computer-user-choice {
+        text-align: center;
+        width: auto;
+    }
+    #resultMessage {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .rules {
+        text-align: center;
+    }
+}
+
+@media(max-width: 855px) {
+    header {
+        width: 100%;
+        padding: 1rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    main {
+        width: 100%;
+        padding: 1rem;
+        border: 1px double black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .choices {
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: fit-content;
+        justify-content: center;
+        text-align: center;
+    }
+    .bttn {
+        width: 10rem;
+        height: 2.5rem;
+        max-height: 5rem;
+        margin: 1rem;
+        border-radius: 1rem;
+        border: 3px solid #000;
+        background-color: #bfbfbf;
+        font-size: 25px;
+        color: #000;
+    }
+    .bttn:hover {
+        cursor: pointer;
+        background-color: #ccc;
+        box-shadow: 2px 2px #262626;
+    }
+    .bttn:active {
+        background-color: #fff;
+    }
+    .computer-user-choice {
+        width: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #computer-user-choice {
+        text-align: center;
+        width: auto;
+    }
+    #resultMessage {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .rules {
+        text-align: center;
+    }
+}
